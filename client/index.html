@@ -6,13 +6,11 @@
 </body>
 <pre>
 <script>
-// in a browser script
-var urlToChangeStream = '/api/MyModels/change-stream';
+var urlToChangeStream = '/api/MyModels/change-stream?_format=event-stream';
 var src = new EventSource(urlToChangeStream);
-src.addEventListener('data', function(raw) {
-  var data = JSON.parse(raw);
-  console.log(data); // the change object
-  document.write( data );
+src.addEventListener('data', function(msg) {
+ var data = JSON.parse(msg.data);
+ console.log(data); // the change object
 });
 </script>
 </pre></body>
