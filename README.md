@@ -1,7 +1,7 @@
 # loopback-realtime
 Very simple demo of realtime server-sent events for a LoopBack app.
 
-**NOTE: The recommended way to push data from server to client is with [angular-live-set-example](https://github.com/strongloop/angular-live-set-example)**, which requires 
+**NOTE: The recommended way to push data from server to client is with [angular-live-set](https://github.com/strongloop/angular-live-set)**, which requires 
 using AngularJS. For an example, see https://github.com/strongloop/angular-live-set-example.
 
 ## Installation
