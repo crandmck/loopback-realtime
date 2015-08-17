@@ -32,10 +32,6 @@
     "dataSource": "db",
     "public": false
   },
-  "CoffeeShop": {
-    "dataSource": "db",
-    "public": true
-  },
   "MyModel": {
     "dataSource": "db",
     "public": true
